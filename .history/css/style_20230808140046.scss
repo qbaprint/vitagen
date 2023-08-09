@@ -1,0 +1,118 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000 url(../img/vitagen-bg.jpg) no-repeat top center;
+    color: #333;
+    font-size: 0.75em;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#lang {
+    background: url(../img/language-bg.png) no-repeat;
+    height: 35px;
+    padding: 5px 48px 0px 40px;
+    float: right;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+#logo {
+    float: left;
+    padding: 20px 0px 0px 0px;
+}
+
+#head1 .container {
+    height: 210px;
+    background: url(../img/vitagen-sewing-thread.png) no-repeat right bottom;
+}
+
+#head1,
+#head2 {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#head2 .container {
+    overflow: visible;
+    height: 37px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    list-style: none;
+}
+
+#menu1 ul {
+    float: left;
+}
+
+#menu1 li {
+    padding: 0;
+    border-right: 0px solid #002b42;
+    border-left: 0px solid #014972;
+}
+
+#menu1 .selected a {
+    text-shadow: -1px 1px 0 #fff, 0 0 4px #ccc;
+    background: url(../img/menu-bg.png) no-repeat right bottom;
+}
+
+#menu1 li a {
+    display: block;
+    float: left;
+    height: 24px;
+    padding: 13px 15px 0px 15px;
+    color: #000;
+    font-size: 1.17em;
+    text-decoration: none;
+    background: url(../img/menu-bg-darker.png) no-repeat right bottom;
+    text-shadow: -1px 1px 0 #fff, 0 0 4px #ccc;
+    margin-right: 2px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#body .container {
+    background-color: #fff;
+    overflow: hidden;
+    -webkit-border-radius: 9px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius: 9px;
+    -moz-border-radius-topleft: 0;
+    border-radius: 9px;
+    border-top-left-radius: 0;
+}
+
+#body .container,
+#foot .container {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+#content {
+    float: left;
+    width: 950px;
+    padding: 20px 0 5px;
+    text-align: center;
+}
+
+#page {
+    position: relative;
+    width: 92%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

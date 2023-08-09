@@ -1,0 +1,16 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #000 url(../img/vitagen-bg.jpg) no-repeat top center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#lang {
+    background: url(img/language.bg.png) no-repeat;
+    height: 35px;
+    padding: 5px 48px 0px 40px;
+    float: right;
+}
+
+/*# sourceMappingURL=style.css.map */

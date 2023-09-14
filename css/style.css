@@ -4,7 +4,11 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  background: #000 url(../img/vitagen-bg.jpg) no-repeat top center;
+  background: #000046;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #333;
   font-size: 0.75em;
   font-family: Verdana, Arial, sans-serif;
@@ -45,22 +49,22 @@ li {
   list-style: none;
 }
 
-#menu1 ul {
+#menu ul {
   padding-left: 0;
 }
 
-#menu1 li {
+#menu li {
   padding: 0;
   border-right: 0px solid #002b42;
   border-left: 0px solid #014972;
 }
 
-#menu1 .selected a {
+#menu .selected a {
   text-shadow: -1px 1px 0 #fff, 0 0 4px #ccc;
   background: url(../img/menu-bg.png) no-repeat right bottom;
 }
 
-#menu1 li a {
+#menu li a {
   display: block;
   float: left;
   height: 24px;
@@ -145,7 +149,7 @@ li {
   list-style: none;
 }
 
-#imagesList2 {
+#imagesList {
   clear: right;
   float: right;
   margin: 8px 0 0 15px;
@@ -193,7 +197,7 @@ li {
     height: 100%;
     overflow-x: hidden;
   }
-  #menu1 {
+  #menu {
     display: none;
   }
   #lang {
@@ -236,10 +240,10 @@ li {
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 7vh;
     width: 80%;
-    background-color: #c5c5c5;
+    background-color: #1CB5E0;
     text-align: center;
     border-radius: 10px;
   }
@@ -248,6 +252,7 @@ li {
     align-content: center;
     text-align: center;
     justify-content: center;
+    color: white;
     font-size: 2rem;
     width: 100%;
   }
@@ -257,7 +262,7 @@ li {
     overflow-x: hidden;
   }
   .burger {
-    position: fixed;
+    position: absolute;
     top: 30px;
     right: 30px;
     width: 60px;
@@ -299,16 +304,15 @@ li {
   }
 }
 @media screen and (max-width: 600px) {
-  #menu1 {
+  #menu {
     display: none;
   }
   .mobile-menu {
-    top: 100px;
+    top: 130px;
   }
   .mobile-menu li {
     margin-top: 20px;
     width: 90%;
-    background-color: #c5c5c5;
     text-align: center;
     border-radius: 10px;
   }
@@ -345,7 +349,7 @@ li {
     align-items: center;
     justify-content: center;
   }
-  #imagesList2 {
+  #imagesList {
     margin: 0;
   }
 }

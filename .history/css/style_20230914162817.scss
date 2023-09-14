@@ -4,12 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background: #000046;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #1CB5E0, #000046);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #000 url(../img/vitagen-bg.jpg) no-repeat top center;
     color: #333;
     font-size: 0.75em;
     font-family: Verdana, Arial, sans-serif;
@@ -202,7 +197,7 @@ li {
         overflow-x: hidden;
     }
 
-    #menu {
+    #menu1 {
         display: none;
     }
 
@@ -251,10 +246,10 @@ li {
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-top: 20px;
+        margin-top: 40px;
         height: 7vh;
         width: 80%;
-        background-color: #1CB5E0;
+        background-color: #c5c5c5;
         text-align: center;
         border-radius: 10px;
     }
@@ -264,7 +259,6 @@ li {
         align-content: center;
         text-align: center;
         justify-content: center;
-        color: white;
         font-size: 2rem;
         width: 100%;
     }
@@ -276,7 +270,7 @@ li {
     }
 
     .burger {
-        position: absolute;
+        position: fixed;
         top: 30px;
         right: 30px;
         width: 60px;
@@ -328,17 +322,18 @@ li {
 
 @media screen and (max-width: 600px) {
 
-    #menu {
+    #menu1 {
         display: none;
     }
 
     .mobile-menu {
-        top: 130px;
+        top: 100px;
     }
 
     .mobile-menu li {
         margin-top: 20px;
         width: 90%;
+        background-color: #c5c5c5;
         text-align: center;
         border-radius: 10px;
     }
@@ -384,7 +379,7 @@ li {
         justify-content: center;
     }
 
-    #imagesList {
+    #imagesList2 {
         margin: 0;
     }
 

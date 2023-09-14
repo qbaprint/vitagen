@@ -10,6 +10,9 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    // background: #000 url(../img/vitagen-bg.jpg) no-repeat top center;
     color: #333;
     font-size: 0.75em;
     font-family: Verdana, Arial, sans-serif;
@@ -254,6 +257,7 @@ li {
         margin-top: 20px;
         height: 7vh;
         width: 80%;
+        color: white;
         background-color: #1CB5E0;
         text-align: center;
         border-radius: 10px;
@@ -264,7 +268,6 @@ li {
         align-content: center;
         text-align: center;
         justify-content: center;
-        color: white;
         font-size: 2rem;
         width: 100%;
     }
@@ -339,6 +342,7 @@ li {
     .mobile-menu li {
         margin-top: 20px;
         width: 90%;
+        background-color: #c5c5c5;
         text-align: center;
         border-radius: 10px;
     }

@@ -223,7 +223,6 @@ li {
         z-index: 200;
         justify-content: center;
         top: 200px;
-        bottom: 0;
         width: 100%;
         background-color: #fff;
         transition: ease-in-out .2s;
@@ -245,9 +244,7 @@ li {
         align-content: center;
         text-align: center;
         justify-content: center;
-        align-items: center;
-        margin-top: 40px;
-        height: 7vh;
+        margin-top: 30px;
         width: 80%;
         background-color: #c5c5c5;
         text-align: center;
@@ -264,7 +261,7 @@ li {
     }
 
     .mobile-menu.open {
-        transform: translateX(0);
+        transform: translateX(-1%);
         transition: ease-in-out .2s;
         overflow-x: hidden;
     }
@@ -328,6 +325,7 @@ li {
 
     .mobile-menu {
         top: 100px;
+        bottom: 0;
     }
 
     .mobile-menu li {

@@ -98,15 +98,13 @@ li {
   border-top-left-radius: 0;
 }
 
-#body .container,
-#foot .container {
+#body .container {
   max-width: 960px;
   margin: 0 auto;
   text-align: left;
 }
 
 #content {
-  float: left;
   max-width: 950px;
   padding: 20px 0 5px;
   text-align: center;
@@ -167,28 +165,15 @@ li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-#foot .container {
+footer {
   max-width: 960px;
   margin: 0 auto;
   padding: 22px 0;
-  background: none;
-  overflow: hidden;
-  text-shadow: 0 1px 1px #222;
-}
-
-.foot {
-  float: right;
-  padding: 0 25px;
-}
-
-#foot a {
-  background: inherit;
-  color: #ccc;
-  text-decoration: underline;
 }
 
 #copy {
   color: #ccc;
+  text-shadow: 0 1px 1px #222;
 }
 
 @media screen and (max-width: 906px) {
@@ -256,6 +241,10 @@ li {
     font-size: 2rem;
     width: 100%;
   }
+  .mobile-menu .selected {
+    background-color: #78d4ee;
+    width: 70vw;
+  }
   .mobile-menu.open {
     transform: translateX(0);
     transition: ease-in-out 0.2s;
@@ -266,7 +255,7 @@ li {
     top: 30px;
     right: 30px;
     width: 60px;
-    height: 50px;
+    height: 60px;
     transition: 0.2s;
     cursor: pointer;
   }
@@ -276,7 +265,7 @@ li {
   .burger span {
     position: absolute;
     width: 100%;
-    height: 10px;
+    height: 8px;
     background-color: #ffffff;
     left: 0;
     transition: top 0.2s 0.2s, bottom 0.2s 0.2s, opacity 0.2s 0.2s, transform 0.2s 0.4s;
@@ -304,6 +293,14 @@ li {
   }
 }
 @media screen and (max-width: 600px) {
+  .burger {
+    width: 35px;
+    height: 40px;
+  }
+  .burger span {
+    height: 7px;
+    border-radius: 20%;
+  }
   #menu {
     display: none;
   }
@@ -329,7 +326,7 @@ li {
     height: 120px;
   }
   #title img {
-    width: 40vw;
+    width: 60vw;
     height: auto;
   }
   #logo {

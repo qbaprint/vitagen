@@ -98,13 +98,15 @@ li {
   border-top-left-radius: 0;
 }
 
-#body .container {
+#body .container,
+#foot {
   max-width: 960px;
   margin: 0 auto;
   text-align: left;
 }
 
 #content {
+  float: left;
   max-width: 950px;
   padding: 20px 0 5px;
   text-align: center;
@@ -137,7 +139,7 @@ li {
   padding: 0;
 }
 
-#page .content li {
+#page div.content li {
   margin: 8px 0;
   padding: 0;
   border-left: 0;
@@ -165,14 +167,10 @@ li {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-footer {
-  max-width: 960px;
-  margin: 0 auto;
-  padding: 22px 0;
-}
-
 #copy {
+  max-width: 960px;
   color: #ccc;
+  float: right;
   text-shadow: 0 1px 1px #222;
 }
 
@@ -255,7 +253,7 @@ footer {
     top: 30px;
     right: 30px;
     width: 60px;
-    height: 60px;
+    height: 50px;
     transition: 0.2s;
     cursor: pointer;
   }
@@ -265,7 +263,7 @@ footer {
   .burger span {
     position: absolute;
     width: 100%;
-    height: 8px;
+    height: 10px;
     background-color: #ffffff;
     left: 0;
     transition: top 0.2s 0.2s, bottom 0.2s 0.2s, opacity 0.2s 0.2s, transform 0.2s 0.4s;
@@ -291,16 +289,12 @@ footer {
     bottom: calc(50% - 5px);
     transform: rotate(-45deg);
   }
+  #copy {
+    text-align: center;
+    padding: 0 25px;
+  }
 }
 @media screen and (max-width: 600px) {
-  .burger {
-    width: 35px;
-    height: 40px;
-  }
-  .burger span {
-    height: 7px;
-    border-radius: 20%;
-  }
   #menu {
     display: none;
   }
@@ -326,7 +320,7 @@ footer {
     height: 120px;
   }
   #title img {
-    width: 60vw;
+    width: 40vw;
     height: auto;
   }
   #logo {
@@ -350,4 +344,4 @@ footer {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_20230915143247.css.map */

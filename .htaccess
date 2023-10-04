@@ -1,0 +1,25 @@
+ErrorDocument 404 /404.html
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.
+RewriteCond %{HTTPS}s ^on(s)|off
+RewriteCond http%1://%{HTTP_HOST} ^(https?://)(www.)?(.+)$
+RewriteRule ^ %1%3%{REQUEST_URI} [R=301,L]
+
+Redirect 301 /?cekiny-perly-dzety,2 https://vitagen.pl/cekiny-perly-dzety/
+Redirect 301 /?druk-cyfrowy,7 https://vitagen.pl/druk-cyfrowy/
+Redirect 301 /?sublimacja,3 https://vitagen.pl/sublimacja/
+Redirect 301 /?aplikacje-laserowe,4 https://vitagen.pl/aplikacje-laserowe/
+Redirect 301 /?skorki,8 https://vitagen.pl/
+Redirect 301 /?sitodruk,5 https://vitagen.pl/
+Redirect 301 /?kontakt,6 https://vitagen.pl/kontakt/
+Redirect 301 /?sLang=en https://vitagen.pl/kontakt/en/
+Redirect 301 /?sequins-pearls-jets,2 https://vitagen.pl/kontakt/en/sequins-pearls-jet/
+Redirect 301 /?sweaters,3 https://vitagen.pl/kontakt/en/
+Redirect 301 /?border,4 https://vitagen.pl/kontakt/en/
+Redirect 301 /?machine-park,5 https://vitagen.pl/kontakt/en/
+Redirect 301 /?contact,6 https://vitagen.pl/kontakt/en/contact/
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} (.+)/$
+RewriteRule ^ %1 [R=301,L]

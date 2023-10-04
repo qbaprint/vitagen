@@ -1,0 +1,12 @@
+ErrorDocument 404 /404.html
+
+Options -Indexes
+Options +FollowSymLinks
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+    RewriteCond %{HTTP_HOST} ^vitagen.pl [nc]
+    RewriteRule ^(.*)$ http://www.vitagen.pl/$1 [r=301,nc]
+</IfModule>

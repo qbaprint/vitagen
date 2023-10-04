@@ -11,5 +11,24 @@
   <changefreq>always</changefreq>
   <priority>1.00</priority>
 </url>
-
+<url>
+  <loc>https://www.vitagen.pl/kontakt/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.vitagen.pl/cekiny-perly-dzety/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vitagen.pl/druk-cyfrowy/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.vitagen.pl/sublimacja/</loc>
+  <changefreq>always</changefreq>
+  <priority>0.80</priority>
+</url>
 </urlset>

@@ -1,7 +1,5 @@
-User-agent: Googlebot
-Disallow: /404.html/
-
 User-agent: *
+Disallow: /404/
 
 Allow: /
 Sitemap: https://vitagen.com/sitemap.xml

@@ -6,7 +6,7 @@ const cacheAssets = [
   './sublimacja',
   './aplikacje-laserowe',
   './kontakt',
-  './en/index.html',
+  './en/index.hml',
   './en/sequins-pearls-jet',
   './en/digital-print',
   './en/sublimation',

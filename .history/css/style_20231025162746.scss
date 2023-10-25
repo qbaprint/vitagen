@@ -10,8 +10,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #1CB5E0, #000046);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: url(../img/vitagen-background-1600.jpg) no-repeat center;
-    background-size: cover;
+    background: url(../img/vitagen-background-800.jpg) no-repeat center;
     color: #333;
     font-size: 0.75em;
     font-family: Verdana, Arial, sans-serif;
@@ -36,6 +35,7 @@ a {
 
 #head1 .container {
     height: 210px;
+    // background: url(../img/vitagen-sewing-thread.png) no-repeat right bottom;
 }
 
 #head1,
@@ -91,7 +91,7 @@ li {
 }
 
 #body .container {
-    background-color: rgba(255, 255, 255, .85);
+    background-color: #fff;
     overflow: hidden;
     -webkit-border-radius: 9px;
     -webkit-border-top-left-radius: 0;
@@ -125,7 +125,7 @@ li {
 #page h1 {
     margin: 18px 0 20px;
     padding-left: 0px;
-    color: #1CB5E0;
+    color: #0A497C;
     font-size: 2.6em;
     font-weight: bold;
     text-transform: capitalize;
@@ -181,7 +181,7 @@ footer {
 }
 
 #copy {
-    color: #444444;
+    color: #ccc;
     text-shadow: 0 1px 1px #222;
 }
 
@@ -191,8 +191,6 @@ footer {
         width: 100%;
         height: 100%;
         overflow-x: hidden;
-        background: url(../img/vitagen-background-800.jpg) no-repeat center;
-        background-size: cover;
     }
 
     #menu {
@@ -263,7 +261,7 @@ footer {
     }
 
     .mobile-menu .selected {
-        background-color: #27d0ff;
+        background-color: #78d4ee;
         width: 70vw;
     }
 
@@ -291,7 +289,7 @@ footer {
         position: absolute;
         width: 100%;
         height: 8px;
-        background-color: #000000;
+        background-color: #ffffff;
         left: 0;
         transition: top .2s .2s, bottom .2s .2s, opacity .2s .2s, transform .2s .4s;
         border-radius: 10%;

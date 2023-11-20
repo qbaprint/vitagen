@@ -121,7 +121,7 @@ li {
 #page h1 {
   margin: 18px 0 20px;
   padding-left: 0px;
-  color: #034e91;
+  color: #0A497C;
   font-size: 2.6em;
   font-weight: bold;
   text-transform: capitalize;
@@ -176,7 +176,7 @@ footer {
 }
 
 #copy {
-  color: #444444;
+  color: #ccc;
   text-shadow: 0 1px 1px #222;
 }
 
@@ -234,7 +234,7 @@ footer {
     margin-top: 20px;
     height: 7vh;
     width: 80%;
-    background-color: #034e91;
+    background-color: #1CB5E0;
     text-align: center;
     border-radius: 10px;
   }
@@ -248,7 +248,7 @@ footer {
     width: 100%;
   }
   .mobile-menu .selected {
-    background-color: #2b5d8a;
+    background-color: #78d4ee;
     width: 70vw;
   }
   .mobile-menu.open {
@@ -356,4 +356,4 @@ footer {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_20231025163704.css.map */

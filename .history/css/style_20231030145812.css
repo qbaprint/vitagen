@@ -234,7 +234,7 @@ footer {
     margin-top: 20px;
     height: 7vh;
     width: 80%;
-    background-color: #034e91;
+    background-color: #1CB5E0;
     text-align: center;
     border-radius: 10px;
   }
@@ -248,7 +248,7 @@ footer {
     width: 100%;
   }
   .mobile-menu .selected {
-    background-color: #2b5d8a;
+    background-color: #27d0ff;
     width: 70vw;
   }
   .mobile-menu.open {
@@ -356,4 +356,4 @@ footer {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_20231030145812.css.map */

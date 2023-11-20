@@ -9,8 +9,7 @@ body {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #1CB5E0, #000046);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: url(../img/vitagen-background-1600.jpg) no-repeat center;
-  background-size: cover;
+  background: url(../img/vitagen-background-800.jpg) no-repeat cover;
   color: #333;
   font-size: 0.75em;
   font-family: Verdana, Arial, sans-serif;
@@ -89,7 +88,7 @@ li {
 }
 
 #body .container {
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: #fff;
   overflow: hidden;
   -webkit-border-radius: 9px;
   -webkit-border-top-left-radius: 0;
@@ -121,7 +120,7 @@ li {
 #page h1 {
   margin: 18px 0 20px;
   padding-left: 0px;
-  color: #034e91;
+  color: #0A497C;
   font-size: 2.6em;
   font-weight: bold;
   text-transform: capitalize;
@@ -176,7 +175,7 @@ footer {
 }
 
 #copy {
-  color: #444444;
+  color: #ccc;
   text-shadow: 0 1px 1px #222;
 }
 
@@ -185,8 +184,6 @@ footer {
     width: 100%;
     height: 100%;
     overflow-x: hidden;
-    background: url(../img/vitagen-background-800.jpg) no-repeat center;
-    background-size: cover;
   }
   #menu {
     display: none;
@@ -234,7 +231,7 @@ footer {
     margin-top: 20px;
     height: 7vh;
     width: 80%;
-    background-color: #034e91;
+    background-color: #1CB5E0;
     text-align: center;
     border-radius: 10px;
   }
@@ -248,7 +245,7 @@ footer {
     width: 100%;
   }
   .mobile-menu .selected {
-    background-color: #2b5d8a;
+    background-color: #78d4ee;
     width: 70vw;
   }
   .mobile-menu.open {
@@ -272,7 +269,7 @@ footer {
     position: absolute;
     width: 100%;
     height: 8px;
-    background-color: #000000;
+    background-color: #ffffff;
     left: 0;
     transition: top 0.2s 0.2s, bottom 0.2s 0.2s, opacity 0.2s 0.2s, transform 0.2s 0.4s;
     border-radius: 10%;
@@ -356,4 +353,4 @@ footer {
     margin: 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_20231025162658.css.map */

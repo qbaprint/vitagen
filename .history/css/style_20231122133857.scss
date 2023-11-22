@@ -184,10 +184,6 @@ footer {
     padding: 22px 0;
 }
 
-#fb {
-    margin-right: 20px;
-}
-
 #copy {
     display: flex;
     align-items: center;
@@ -405,24 +401,6 @@ footer {
 
     #imagesList {
         margin: 0;
-    }
-
-    footer {
-        display: flex;
-        justify-content: space-between;
-        justify-items: center;
-        flex-direction: column;
-        align-items: center;
-
-    }
-
-    #fb {
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    #copy {
-        margin-top: 20px;
     }
 
 }
